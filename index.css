@@ -1,0 +1,459 @@
+*{
+    margin:0px;
+    padding: 6px 0px ;
+   background-color: #F5F5F5;
+   font-family: "Lato",sans-serif;
+}
+#top-panel {
+    display: flex;
+    background-color: #011e29;
+    color: white;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+}
+#top-panel #explore{
+    display: grid;
+    margin-left: 170px;
+    grid-template-areas: 
+    "x y"
+    "z z";
+    background-color: #011e29;
+    font-size: 14px;
+    padding: 3px 15px;
+}
+#top-panel #explore>div:nth-child(1):hover{
+    cursor:pointer;
+}
+#top-panel #explore>div:nth-child(1){
+    width: 100%;
+    grid-area: x;
+    background-color: #011e29;
+
+}
+#top-panel #explore>div:nth-child(2){
+padding-right: 20px;
+    grid-area: y;
+    background-color: #011e29;
+
+}
+#top-panel #explore>div:nth-child(2):hover{
+    cursor:pointer;
+}
+#top-panel #explore>div:nth-child(3){
+    grid-area: z;
+    background-color: #011e29;
+}
+
+#top-panel #explore>div:nth-child(3) img{
+width:20px;
+height: auto;
+margin: auto;
+background-color: #011e29;
+
+}
+#top-mater{
+    position: sticky;
+    top:0px
+}
+#top-mater{
+    margin-right: 10px;
+    top:0px
+}
+#top-mater>div:nth-child(2){
+width: 100%;
+background-color: white;
+}
+
+#top-mater>div:nth-child(2)>div>div>div:hover{
+cursor: pointer;
+color: rgb(96, 255, 255);
+/* background-color: red; */
+}
+#explore{
+    width: 15%;
+}
+#hi{
+    width: 20%;
+    grid-template-columns: repeat(2,1fr);      
+    background-color: #011e29;
+}
+#hi>div:hover{
+cursor: pointer;
+}
+#hi>div{
+    margin-top: 10px;
+    background-color: #011e29;
+}
+#hi>div img{
+    background-color: #011e29;
+}
+#signin{
+    width: 14%;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    margin-right: 160px;
+    grid-template-areas:
+    "x y z"
+    "c c c";
+    background-color: #011e29;
+    text-align: center;
+}
+#signin>div{
+    width: 100%;
+    background-color: #011e29;
+    font-size: 14px;
+    padding: 3px 15px;
+    text-align: left;
+}
+#signin>div:nth-child(1){
+    grid-area: x;
+    background-color: #011e29;
+}
+
+#signin>div:nth-child(1):hover{
+    cursor: pointer;
+}
+#signin>div:nth-child(2){
+    grid-area: y;
+    background-color: #011e29;
+}
+#signin>div:nth-child(2):hover{
+    cursor: pointer;
+}
+
+#signin>div:nth-child(3){
+    grid-area: z;
+    background-color: #011e29; 
+}
+
+#signin>div:nth-child(3)>input:hover{
+    cursor: pointer;
+    color: aqua;
+}
+
+#signin>div:nth-child(4){
+    grid-area: c;
+    background-color: #011e29;
+    background-color: 2px solid yellow;
+
+}
+#signin>div:nth-child(3)>input{
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 3px 15px;
+    font-weight: bolder ;
+    background-color: #011e29;
+    color: white;
+    border: 0px;
+}
+#signin>div:nth-child(4)>input:hover{
+cursor: pointer;
+background-color: #e4e4e4;
+transform: scale(0.9);
+}
+
+
+#game{
+    color: white;
+    background-color: #011e29;
+    /* border: 2px solid red; */
+}
+
+.navigation-panel>div{
+    background-color: white;
+}
+#navigator>div{
+        display: flex;
+        justify-content: space-around;
+        width: 70%;
+        margin: auto;
+        font-family: 'Roboto', Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        padding: 3px 15px;
+        font-weight: bold;
+        background-color: white;
+    }   
+
+    #navigator>div>div{
+        background-color: white;
+        color: #212121;
+        padding: 0 9px;
+
+    }
+
+    #navigation-2>div{
+        display: flex;
+        justify-content: space-around;
+        width: 70%;
+        margin: auto;
+        font-family: 'Roboto', Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        padding: 3px 15px;
+        font-weight: bold;
+        background-color: white;
+        border-radius: 10px;
+    }   
+    #navigation-2>div>div{
+    border: 1px solid rgb(108, 106, 106);
+    border-radius: 20px;
+    padding: 5px;        
+    }
+    
+    h3 {
+overflow: hidden;
+text-align: center;
+background-color: white;
+
+}
+h3:before,
+h3:after {
+background-color: #000;
+content: "";
+display: inline-block;
+height: 1px;
+position: relative;
+vertical-align: middle;
+width: 50%;
+}
+h3:before {
+right: 0.5em;
+margin-left: -50%;
+}
+h3:after {
+left: 0.5em;
+margin-right: -50%;
+}
+
+
+
+#centre{
+display: grid;
+width:70%;
+margin: auto;
+grid-template-columns: 20% 55% 20% ;
+gap: 30px;
+/* background-color: white; */
+/* border: 1px solid black; */
+}
+#centre h1{
+    font-size: 14px;
+    padding: 3px 15px;
+color: rgb(13, 179, 179);
+background-color: white;
+}
+
+#centre h1:hover{
+        cursor: pointer;
+}
+
+#centre>div{
+width: 100%;  
+background-color: white;
+
+}
+#centre>div img{
+width: 90%;
+/* background-color: white; */
+}
+
+#centre>div:nth-child(odd){
+    font-size: 14px;
+    line-height: 20px;
+    padding: 3px 15px;
+box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;}
+
+#centre>div>div{
+/* border: 1px solid red; */
+box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+background-color: white;
+}
+
+#centre>div:nth-child(even){
+box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+background-color: white;
+
+}
+
+#centre>div:nth-child(even) p{
+font-size: 20px;
+text-align: left;
+margin: 0px 30px;
+background-color: white;
+
+}
+
+#content>div>img,p,span,h2,h1,h4{
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+margin-left: 4%;
+margin-right: 2%;
+background-color: white;
+}
+
+#content>div>img,span,h2,h1,h4:hover{
+cursor: pointer;
+}
+
+
+#content>div{
+box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+background-color: white;
+}
+
+.bookmark{
+display: grid;
+font-size: 14px;
+padding: 3px 15px;
+grid-template-columns: 80% 10% 10%;
+justify-content:space-between ;
+margin:auto ;
+background-color: white;
+
+}
+
+
+.bookmark>div,i{
+    background-color: white;
+}
+
+.bookmark>div i:hover{
+    cursor: pointer;
+}
+
+
+#right-column>div{
+display: grid;
+grid-template-columns: 65% 30%;
+justify-content: space-between;
+font-weight: bold;
+background-color: white;
+}
+
+#right-column>span>img{
+width: 90%;
+padding: 10px;
+margin: auto;
+border-radius: 20px;
+background-color: white;
+}
+
+#right-column>span>img:hover{
+    cursor: pointer;
+}
+
+#right-column>span{
+margin: auto;
+font-weight: bold;
+background-color: white;
+
+}
+
+#right-column>center{
+font-weight: bold;
+font-size: 14px;
+padding: 3px 15px;
+color: rgb(13, 179, 179);
+margin-top: 10px;
+background-color: white;
+}
+
+#right-column>center:hover{
+    cursor: pointer;
+}
+
+#left-panel>center{
+font-weight: bold;
+font-size: 14px;
+padding: 3px 15px;
+color: rgb(13, 179, 179);
+margin-top: 10px;
+background-color: white;
+}
+
+#left-panel>center:hover{
+    cursor: pointer;
+}
+
+#mid-section>div>img,p,span,h2,h1,h4{
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+margin-left: 4%;
+background-color: white;
+}
+
+#mid-section>div>img,span,h2,h1,h4:hover{
+cursor: pointer;
+}
+
+#mid-section>div>p{
+    font-size: 14px;
+    padding: 3px 15px;
+margin-right: 5%;
+}
+
+#centre>#left-panel button{
+background-color: rgb(47, 255, 255);
+border: 0px;
+margin: 10px;
+color:#00B1Cd;
+font-weight: bold;
+display: grid;
+border-radius: 15px;
+font-size: 14px;
+    padding: 3px 15px;
+}
+
+#centre>#left-panel button:hover{
+    cursor: pointer;
+}
+#centre>#left-panel h4,b{
+    background-color: white;
+}
+
+#centre>#left-panel h4,b:hover{
+    cursor: pointer;
+    
+}
+
+
+
+#centre .most-trending>div{
+display: grid;
+grid-template-columns: 65% 30%;
+background-color: white;
+box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.most-trending>span>img{
+width: 90%;
+padding: 10px;
+margin: auto;
+border-radius: 20px;
+background-color: white;
+
+}
+
+.most-trending>span{
+margin: auto;
+font-weight: bold;
+background-color: white;
+
+}
+.most-trending>center{ 
+font-weight: bold;
+font-size: 14px;
+    padding: 3px 15px;
+color:  rgb(13, 179, 179);
+margin-top: 10px;
+background-color: white;
+}
+.most-trending>center:hover{ 
+    cursor: pointer;
+}
+#centre .most-trending>div>p:hover{
+cursor: pointer;
+}
